@@ -17,3 +17,4 @@ To Log In to example project
 ```
 # project overview
 
+![angular-cms](https://user-images.githubusercontent.com/19737032/51043643-7c4f0100-15bf-11e9-9293-c0ccff2101ce.png)
