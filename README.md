@@ -15,6 +15,8 @@ To Log In to example project
 > example code can be found in the configuration.example.ts file
 
 ```
+# app
+Angular application including all of the Angular 6 updates. The project focuses on the key features and skills required to successfully implement a modern angular application. The code is commented for easy reference and links below provide additional resources.
 # project overview
 
 ![angular-cms](https://user-images.githubusercontent.com/19737032/51043643-7c4f0100-15bf-11e9-9293-c0ccff2101ce.png)
