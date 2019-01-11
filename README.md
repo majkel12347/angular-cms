@@ -51,10 +51,9 @@ To Log In to example project
 > Directives
 
 # links
-
-> [Angular Docs](https://angular.io/)
-> [Angular API](https://angular.io/api)
-> [Angular Docs](https://angular.io/)
+- [Angular Docs](https://angular.io/)
+- [Angular API](https://angular.io/api)
+- [Angular Docs](https://angular.io/)
 
 # help
-> [Angular CLI readme](https://github.com/angular/angular-cli/blob/master/README.md)
+- [Angular CLI readme](https://github.com/angular/angular-cli/blob/master/README.md)
