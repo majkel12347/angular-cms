@@ -1,0 +1,37 @@
+<nav class="navbar navbar-inverse navbar-dark">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a routerLink="/" class="navbar-brand">CMS</a>
+      
+    <img src="assets/basket.svg" class="head-svg">
+    </div>
+
+  
+  
+
+      <ul class="nav navbar-nav">
+        <li routerLinkActive="active"><a routerLink="/recipes">Przepisy</a></li>
+        <li routerLinkActive="active"><a routerLink="/shopping-list">Lista Zakupow</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <ng-template [ngIf]="!authService.isAuthenticated()">
+          <li><a routerLink="/signup">Zarejestruj</a></li>
+          <li><a routerLink="/signin">Zaloguj</a></li>
+        </ng-template>
+
+        <li><a
+          style="cursor: pointer;"
+          (click)="onLogout()"
+          *ngIf="authService.isAuthenticated()">Wyloguj</a></li>
+
+        <li class="dropdown" appDropdown *ngIf="authService.isAuthenticated()">
+          <a style="cursor: pointer;" class="dropdown-toggle" role="button">Zarzadzaj <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a style="cursor: pointer;" (click)="onSaveData()">Zapis</a></li>
+            <li><a style="cursor: pointer;" (click)="onFetchData()">Odczyt</a></li>
+          </ul>
+        </li>
+      </ul>
+    
+  </div>
+</nav>
