@@ -6,3 +6,8 @@ button.navbar-toggle{
     
 }
 
+body{
+
+    background-image: radial-gradient(circle, #dae0e9, #dbe9ef, #e1f2f1, #ecf9f1, #fbfff2) !important;
+
+}
